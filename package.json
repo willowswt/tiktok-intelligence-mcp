@@ -1,6 +1,6 @@
 {
   "name": "@willowswt/tiktok-intelligence-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Streamable-HTTP & stdio MCP server for TikTok video search, spoken viral hook & transcript extraction, creator email discovery, buyer-intent comment mining, and sponsor spying.",
   "type": "module",
   "main": "src/index.js",

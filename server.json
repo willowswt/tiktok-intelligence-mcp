@@ -1,16 +1,26 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.willowswt/tiktok-intelligence-mcp",
-  "description": "Streamable-HTTP & stdio MCP server for TikTok video search, spoken viral hook & transcript extractio",
+  "title": "TikTok Viral Hooks, Creator Emails & Sponsors MCP",
+  "description": "TikTok video search, spoken viral hooks & transcripts, creator emails, buyer comments & sponsors.",
   "version": "1.0.0",
+  "websiteUrl": "https://apify.com/church_of_loujess/tiktok-intelligence-mcp",
   "repository": {
     "url": "https://github.com/willowswt/tiktok-intelligence-mcp",
     "source": "github"
   },
   "remotes": [
     {
-      "transport_type": "streamable-http",
-      "url": "https://church-of-loujess--tiktok-intelligence-mcp.apify.actor/mcp"
+      "type": "streamable-http",
+      "url": "https://church-of-loujess--tiktok-intelligence-mcp.apify.actor/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <YOUR_APIFY_API_TOKEN> (free $5/mo credit at https://console.apify.com/settings/integrations)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
     }
   ]
 }
