@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.willowswt/tiktok-intelligence-mcp",
+  "description": "Streamable-HTTP & stdio MCP server for TikTok video search, spoken viral hook & transcript extractio",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/willowswt/tiktok-intelligence-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://church-of-loujess--tiktok-intelligence-mcp.apify.actor/mcp"
+    }
+  ]
+}

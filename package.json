@@ -1,0 +1,36 @@
+{
+  "name": "@willowswt/tiktok-intelligence-mcp",
+  "version": "1.0.0",
+  "description": "Streamable-HTTP & stdio MCP server for TikTok video search, spoken viral hook & transcript extraction, creator email discovery, buyer-intent comment mining, and sponsor spying.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "tiktok-intelligence-mcp": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "start:http": "node src/index.js --http"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "tiktok",
+    "social-media",
+    "influencer-marketing",
+    "viral-hooks",
+    "creator-economy",
+    "claude-desktop",
+    "apify"
+  ],
+  "homepage": "https://apify.com/church_of_loujess/tiktok-intelligence-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willowswt/tiktok-intelligence-mcp.git"
+  },
+  "author": "Church of LouJess",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
